@@ -1,0 +1,85 @@
+{
+  "shop": {
+    "currency": "USD",
+    "language": "cn",
+    "weightUnit": "kg",
+    "homeUrl": "http://localhost:3000"
+  },
+  "catalog": {
+    "product": {
+      "image": {
+        "thumbnail": {
+          "width": 100,
+          "height": 100
+        },
+        "listing": {
+          "width": 300,
+          "height": 300
+        },
+        "single": {
+          "width": 500,
+          "height": 500
+        }
+      }
+    },
+    "showOutOfStockProduct": false
+  },
+  "system": {
+    "theme": "friday",
+    "extensions": [
+      {
+        "name": "productComment",
+        "resolve": "extensions/productComment",
+        "enabled": true,
+        "priority": 10
+      }
+    ]
+  },
+  "pricing": {
+    "rounding": "round",
+    "precision": 2,
+    "tax": {
+      "rounding": "round",
+      "precision": 2,
+      "round_level": "unit",
+      "display_catalog_price_including_tax": true,
+      "display_checkout_price_including_tax": true
+    }
+  },
+  "themeConfig": {
+    "logo": {
+      "alt": "ladylike logo",
+      "src": "/logo_without_tagline.jpeg",
+      "width": 200,
+      "height": 100
+    },
+    "headTags": {
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/favicon.jpeg"
+        }
+      ],
+      "metas": [
+        {
+          "name":"Ladylike",
+          "content":"Ladylike"
+        }
+      ],
+      "scripts": []
+      
+    },
+    "copyRight": "Copyright 2023 ladylike Pvt Ltd."
+  },
+  "pageInfo": {
+    "title": "New Page Title", 
+    "description": "Description of the page"
+  },
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "26918",
+    "database": "evershop"
+  }
+}

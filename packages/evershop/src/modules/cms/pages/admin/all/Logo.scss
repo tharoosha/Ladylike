@@ -1,0 +1,12 @@
+.logo {
+  display: flex;
+  a {
+    align-self: center;
+    color: var(--primary);
+    padding: 3px;
+    img {
+      width: 13rem;
+      height: 3rem;
+    }
+  }
+}
