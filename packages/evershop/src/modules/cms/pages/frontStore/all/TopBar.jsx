@@ -43,7 +43,7 @@ function TopBar() {
       backgroundColor: '#f8d7d0', 
       color: '#000', 
       textAlign: 'center', 
-      fontSize: '1rem',
+      fontSize: '1.3rem',
       padding: '5px',
     //   marginBottom: '2px', 
     //   position: 'relative', 
