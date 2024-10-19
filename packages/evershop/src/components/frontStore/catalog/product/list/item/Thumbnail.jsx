@@ -13,7 +13,7 @@ function Thumbnail({ url, imageUrl, alt }) {
       )}
       {!imageUrl && (
         <a href={url}>
-          <ProductNoThumbnail width={100} height={100} />
+          <ProductNoThumbnail width={300} height={100} />
         </a>
       )}
     </div>

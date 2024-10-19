@@ -39,7 +39,7 @@
         flex: 2; /* Larger space for logo and about section */
   
         .footer-logo img {
-          width: 150px; /* Adjust logo size */
+          width: 200px; /* Adjust logo size */
           margin: 1rem -1.6rem;
 
           @media (max-width: 992px) {
@@ -58,12 +58,17 @@
   
         .social-icons {
           a {
-            margin-right: 1rem;
+            margin-right: 2.5rem;
             font-size: 1.5rem;
             color: #000000;
+
+            // .fa-facebook {
+            //   color: #3b5998; /* Facebook Blue */
+            // }
   
             &:hover {
-              color: #e9b4a1; /* Add hover color if needed */
+              // 
+              font-size: 1.7rem;
             }
           }
         }

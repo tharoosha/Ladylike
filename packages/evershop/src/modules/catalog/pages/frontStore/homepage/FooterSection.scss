@@ -49,9 +49,13 @@
   
         .social-icons {
           a {
-            margin-right: 1rem;
-            font-size: 1.5rem;
+            margin: 2rem;
+            font-size: 2rem;
             color: #000000;
+
+            .fa-facebook {
+              color: #3b5998; /* Facebook Blue */
+            }
   
             &:hover {
               color: #e9b4a1; /* Add hover color if needed */

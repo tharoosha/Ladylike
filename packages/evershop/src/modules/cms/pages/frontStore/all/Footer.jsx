@@ -1,9 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './FooterSection.scss';
+// Import FontAwesome core and necessary icons
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faInstagram, faYoutube, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+
 
 function Footer({ themeConfig: { copyRight } }) {
   return (
+    
     <div className="footer__default">
       <div className="footer-container">
         {/* Left Section: Logo and About */}
@@ -16,17 +21,20 @@ function Footer({ themeConfig: { copyRight } }) {
             in cosmetics, offering uncompromised skin and beauty care products.
           </p>
           <div className="social-icons">
-            <a href="#">
-              <i className="fa fa-facebook"></i>
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faFacebook} size="2x" />
             </a>
-            <a href="#">
-              <i className="fa fa-instagram"></i>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faInstagram} size="2x" />
             </a>
-            <a href="#">
-              <i className="fa fa-youtube"></i>
+            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faYoutube} size="2x" />
             </a>
-            <a href="#">
-              <i className="fa fa-linkedin"></i>
+            {/* <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faLinkedin} size="lg" />
+            </a> */}
+            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faTwitter} size="2x" />
             </a>
           </div>
         </div>
